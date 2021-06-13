@@ -1,0 +1,51 @@
+.servise {
+  background-color: black;
+  color: black;
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+
+  .servise-box {
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 389px;
+
+    img {
+      width: 160px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-family: "ヒラギノ明朝 Pro";
+      padding-bottom: 50px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      font-family: "ヒラギノ明朝 Pro";
+      padding-right: 20px;
+      padding-left: 20px;
+      line-height: 30px;
+      padding-bottom: 50px;
+    }
+  }
+}
+
+// --------------------------------------
+
+@media (max-width: 767px) {
+  .servise {
+    display: block;
+
+    .servise-box {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+  }
+}

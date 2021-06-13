@@ -1,0 +1,38 @@
+.faq {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 80px;
+
+  .faq-ac {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: #000;
+
+    .faq-box {
+      max-width: 907px;
+      margin: 0 auto;
+
+      h3 {
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 16px;
+        font-family: "ヒラギノ明朝 Pro";
+        width: 100%;
+      }
+
+      .answer {
+        text-align: left;
+        background-color: rgb(235, 235, 235);
+        padding-top: 27px;
+        padding-bottom: 27px;
+        padding-left: 50px;
+        font-size: 16px;
+        font-family: "ヒラギノ明朝 Pro";
+        margin: 0 auto;
+        display: none;
+      }
+    }
+  }
+}

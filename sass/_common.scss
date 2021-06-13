@@ -1,0 +1,32 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "ヒラギノ明朝 Pro";
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "ヒラギノ明朝 Pro";
+    font-size: 32px;
+    padding-bottom: 50px;
+  }
+
+  h3 {
+    font-family: Times New Roman;
+    font-size: 20px;
+  }
+}

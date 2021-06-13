@@ -1,0 +1,41 @@
+footer {
+  background-color: #4d0000;
+  color: white;
+  text-align: center;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+    li {
+      margin-right: 30px;
+      margin-left: 30pxs;
+      font-family: "ヒラギノ明朝 Pro";
+    }
+  }
+
+  img {
+    width: 188px;
+    padding-top: 50px;
+  }
+
+  .footer-copy {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+// ---------------------------------------
+
+@media (max-width: 767px) {
+  footer ul {
+    display: block;
+
+    li {
+      margin-top: 30px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+}

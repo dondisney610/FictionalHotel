@@ -1,0 +1,28 @@
+.top {
+  background-image: url(../img/top-bg.png);
+  height: 674px;
+  padding-top: 94px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+
+  h1 {
+    margin: 270px auto;
+    font-size: 50px;
+    font-family: "ヒラギノ明朝 Pro";
+  }
+}
+
+// -----------------------------------
+
+@media (max-width: 767px) {
+  .top {
+    background-image: url(../img/top-mv_sp.png);
+
+    h1 {
+      font-size: 35px;
+      line-height: 50px;
+    }
+  }
+}
