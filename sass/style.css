@@ -507,6 +507,7 @@ header .nav-btn span:last-child {
   font-family: "ヒラギノ明朝 Pro";
   margin: 0 auto;
   display: none;
+  line-height: 25px;
 }
 
 footer {
