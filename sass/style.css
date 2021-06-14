@@ -446,6 +446,7 @@ header .nav-btn span:last-child {
   text-decoration: underline;
   text-align: left;
   line-height: 30px;
+  margin-right: 50px;
 }
 
 .blog a {
